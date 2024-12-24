@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Edit Student Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Edit student</h1>
+        <p>
+            Please enter the student details below:
+        </p>
+        <form action="EditStudentServlet.do" method="POST">
+          <table>
+            <tbody>
+                <tr>
+                    <td>New Student age: </td>
+                    <td><input type="text" name="age"/></td>
+                </tr>
+                <tr>
+                    <td>Student number: </td>
+                    <td><input type="text" name="id"/></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" name="EDIT"/></td>
+                </tr>
+            </tbody>
+        </table>
+        </form>
+    </body>
+</html>
